@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+        
+  fiap-lanches-admin-api:
+   build:
+     context: .
+     dockerfile: ./Dockerfile
+   ports:
+     - "8086:8086"
+   volumes:
+     - fiap-lanches-admin-api:/var/lib/fiaplancher/data
+   networks:
+     - fiap-lanchonet-network
+
+networks:
+  fiap-lanchonet-network:
+    external: true
+
+volumes:
+  fiap-lanches-admin-api:
+    driver: local

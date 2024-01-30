@@ -1,0 +1,1050 @@
+2024-01-29 00:44:50,269 INFO StartupInfoLogger [main] Starting AdministradorFiaplanchesApplication using Java 17.0.7 with PID 31012 (C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches\target\classes started by dalex in C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches)
+2024-01-29 00:44:50,273 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-29 00:44:51,509 INFO TomcatWebServer [main] Tomcat initialized with port 8086 (http)
+2024-01-29 00:44:51,544 INFO DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8086"]
+2024-01-29 00:44:51,545 INFO DirectJDKLog [main] Starting service [Tomcat]
+2024-01-29 00:44:51,546 INFO DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-29 00:44:51,611 INFO DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-01-29 00:44:51,612 INFO ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1295 ms
+2024-01-29 00:44:52,718 INFO EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-29 00:44:52,769 INFO DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8086"]
+2024-01-29 00:44:52,781 INFO TomcatWebServer [main] Tomcat started on port 8086 (http) with context path ''
+2024-01-29 00:44:52,797 INFO StartupInfoLogger [main] Started AdministradorFiaplanchesApplication in 3.323 seconds (process running for 3.991)
+2024-01-29 00:54:23,104 INFO DirectJDKLog [http-nio-8086-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-29 00:54:23,104 INFO FrameworkServlet [http-nio-8086-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-01-29 00:54:23,106 INFO FrameworkServlet [http-nio-8086-exec-1] Completed initialization in 2 ms
+2024-01-29 00:54:23,128 INFO RestControllerFilter [http-nio-8086-exec-1] START
+2024-01-29 00:54:23,129 INFO RestControllerFilter [http-nio-8086-exec-1] URL: http://127.0.0.1:8086/v1/admin/find/orders/pending :: request ID [e812cd13-777e-4910-a5c9-ae2439a8744a] :: IP solicitante: 127.0.0.1
+2024-01-29 00:54:23,130 INFO RestControllerFilter [http-nio-8086-exec-1] Request: null
+2024-01-29 00:54:23,146 INFO RestControllerFilter [http-nio-8086-exec-1] Response: 
+2024-01-29 00:54:23,146 INFO RestControllerFilter [http-nio-8086-exec-1] Status Code: 404
+2024-01-29 00:54:23,146 INFO RestControllerFilter [http-nio-8086-exec-1] END
+2024-01-29 00:55:04,456 INFO StartupInfoLogger [main] Starting AdministradorFiaplanchesApplication using Java 17.0.7 with PID 23164 (C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches\target\classes started by dalex in C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches)
+2024-01-29 00:55:04,458 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-29 00:55:05,732 INFO TomcatWebServer [main] Tomcat initialized with port 8086 (http)
+2024-01-29 00:55:05,742 INFO DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8086"]
+2024-01-29 00:55:05,744 INFO DirectJDKLog [main] Starting service [Tomcat]
+2024-01-29 00:55:05,745 INFO DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-29 00:55:05,812 INFO DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-01-29 00:55:05,812 INFO ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1310 ms
+2024-01-29 00:55:06,934 INFO EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-29 00:55:06,988 INFO DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8086"]
+2024-01-29 00:55:06,999 INFO TomcatWebServer [main] Tomcat started on port 8086 (http) with context path ''
+2024-01-29 00:55:07,015 INFO StartupInfoLogger [main] Started AdministradorFiaplanchesApplication in 3.168 seconds (process running for 3.785)
+2024-01-29 00:55:10,770 INFO DirectJDKLog [http-nio-8086-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-29 00:55:10,771 INFO FrameworkServlet [http-nio-8086-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-01-29 00:55:10,772 INFO FrameworkServlet [http-nio-8086-exec-1] Completed initialization in 1 ms
+2024-01-29 00:55:10,796 INFO RestControllerFilter [http-nio-8086-exec-1] START
+2024-01-29 00:55:10,797 INFO RestControllerFilter [http-nio-8086-exec-1] URL: http://127.0.0.1:8086/v1/admin/find/orders/pending :: request ID [824f581a-79e2-467f-99f5-e2a387e1b58d] :: IP solicitante: 127.0.0.1
+2024-01-29 00:55:10,798 INFO RestControllerFilter [http-nio-8086-exec-1] Request: null
+2024-01-29 00:55:10,815 INFO FindOrdersPendingUseCase [http-nio-8086-exec-1] Buscando pedidos aprovados
+2024-01-29 00:55:10,816 INFO OrderRestAdapterOut [http-nio-8086-exec-1] Chamando endpoint de busca de pedidos pendentes
+2024-01-29 00:55:11,568 INFO OrderRestAdapterOut [http-nio-8086-exec-1] Pedidos pendentes: [OrderDto[id=null, cpf=null, products=null, dateOrder=null, orderStatus=null, approved=null]]
+2024-01-29 00:55:11,590 INFO RestControllerFilter [http-nio-8086-exec-1] Response: [{"id":null,"cpf":null,"products":null,"dateOrder":null,"orderStatus":null,"approved":null}]
+2024-01-29 00:55:11,590 INFO RestControllerFilter [http-nio-8086-exec-1] Status Code: 200
+2024-01-29 00:55:11,590 INFO RestControllerFilter [http-nio-8086-exec-1] END
+2024-01-29 00:59:10,445 INFO RestControllerFilter [http-nio-8086-exec-3] START
+2024-01-29 00:59:10,446 INFO RestControllerFilter [http-nio-8086-exec-3] URL: http://127.0.0.1:8086/v1/admin/find/orders/pending :: request ID [5ec4032a-6e40-4995-94f0-7c30ed547b9e] :: IP solicitante: 127.0.0.1
+2024-01-29 00:59:10,447 INFO RestControllerFilter [http-nio-8086-exec-3] Request: null
+2024-01-29 00:59:10,448 INFO FindOrdersPendingUseCase [http-nio-8086-exec-3] Buscando pedidos aprovados
+2024-01-29 00:59:10,448 INFO OrderRestAdapterOut [http-nio-8086-exec-3] Chamando endpoint de busca de pedidos pendentes
+2024-01-29 00:59:10,487 INFO OrderRestAdapterOut [http-nio-8086-exec-3] Pedidos pendentes: [OrderDto[id=2, cpf=40859526844, products=[2, 3], dateOrder=2024-01-28T23:13:40.961373, orderStatus=PAGAMENTO_APROVADO, approved=true], OrderDto[id=1, cpf=40859526844, products=[2, 3], dateOrder=2024-01-28T23:12:35.548009, orderStatus=PAGAMENTO_APROVADO, approved=true], OrderDto[id=3, cpf=40859526844, products=[2, 3], dateOrder=2024-01-28T23:20:17.968366, orderStatus=PAGAMENTO_APROVADO, approved=true], OrderDto[id=4, cpf=40859526844, products=[2, 3], dateOrder=2024-01-28T23:21:55.402316, orderStatus=PAGAMENTO_APROVADO, approved=true]]
+2024-01-29 00:59:10,491 INFO RestControllerFilter [http-nio-8086-exec-3] Response: [{"id":2,"cpf":"40859526844","products":[2,3],"dateOrder":"2024-01-28T23:13:40.961373","orderStatus":"PAGAMENTO_APROVADO","approved":true},{"id":1,"cpf":"40859526844","products":[2,3],"dateOrder":"2024-01-28T23:12:35.548009","orderStatus":"PAGAMENTO_APROVADO","approved":true},{"id":3,"cpf":"40859526844","products":[2,3],"dateOrder":"2024-01-28T23:20:17.968366","orderStatus":"PAGAMENTO_APROVADO","approved":true},{"id":4,"cpf":"40859526844","products":[2,3],"dateOrder":"2024-01-28T23:21:55.402316","orderStatus":"PAGAMENTO_APROVADO","approved":true}]
+2024-01-29 00:59:10,491 INFO RestControllerFilter [http-nio-8086-exec-3] Status Code: 200
+2024-01-29 00:59:10,491 INFO RestControllerFilter [http-nio-8086-exec-3] END
+2024-01-29 01:01:53,023 INFO RestControllerFilter [http-nio-8086-exec-5] START
+2024-01-29 01:01:53,024 INFO RestControllerFilter [http-nio-8086-exec-5] URL: http://127.0.0.1:8086/v1/admin/find/orders/pending :: request ID [1cb39cc2-b0a1-4214-a572-a05dbcc25077] :: IP solicitante: 127.0.0.1
+2024-01-29 01:01:53,024 INFO RestControllerFilter [http-nio-8086-exec-5] Request: null
+2024-01-29 01:01:53,025 INFO FindOrdersPendingUseCase [http-nio-8086-exec-5] Buscando pedidos aprovados
+2024-01-29 01:01:53,025 INFO OrderRestAdapterOut [http-nio-8086-exec-5] Chamando endpoint de busca de pedidos pendentes
+2024-01-29 01:01:53,056 INFO OrderRestAdapterOut [http-nio-8086-exec-5] Pedidos pendentes: [OrderDto[id=2, cpf=40859526844, products=[2, 3], dateOrder=2024-01-28T23:13:40.961373, orderStatus=PAGAMENTO_APROVADO, approved=true], OrderDto[id=1, cpf=40859526844, products=[2, 3], dateOrder=2024-01-28T23:12:35.548009, orderStatus=PAGAMENTO_APROVADO, approved=true], OrderDto[id=3, cpf=40859526844, products=[2, 3], dateOrder=2024-01-28T23:20:17.968366, orderStatus=PAGAMENTO_APROVADO, approved=true], OrderDto[id=4, cpf=40859526844, products=[2, 3], dateOrder=2024-01-28T23:21:55.402316, orderStatus=PAGAMENTO_APROVADO, approved=true], OrderDto[id=5, cpf=40859526844, products=[1, 2, 3], dateOrder=2024-01-28T23:55:24.172173, orderStatus=PAGAMENTO_APROVADO, approved=true]]
+2024-01-29 01:01:53,058 INFO RestControllerFilter [http-nio-8086-exec-5] Response: [{"id":2,"cpf":"40859526844","products":[2,3],"dateOrder":"2024-01-28T23:13:40.961373","orderStatus":"PAGAMENTO_APROVADO","approved":true},{"id":1,"cpf":"40859526844","products":[2,3],"dateOrder":"2024-01-28T23:12:35.548009","orderStatus":"PAGAMENTO_APROVADO","approved":true},{"id":3,"cpf":"40859526844","products":[2,3],"dateOrder":"2024-01-28T23:20:17.968366","orderStatus":"PAGAMENTO_APROVADO","approved":true},{"id":4,"cpf":"40859526844","products":[2,3],"dateOrder":"2024-01-28T23:21:55.402316","orderStatus":"PAGAMENTO_APROVADO","approved":true},{"id":5,"cpf":"40859526844","products":[1,2,3],"dateOrder":"2024-01-28T23:55:24.172173","orderStatus":"PAGAMENTO_APROVADO","approved":true}]
+2024-01-29 01:01:53,058 INFO RestControllerFilter [http-nio-8086-exec-5] Status Code: 200
+2024-01-29 01:01:53,058 INFO RestControllerFilter [http-nio-8086-exec-5] END
+2024-01-29 18:51:37,032 INFO StartupInfoLogger [main] Starting AdministradorFiaplanchesApplication using Java 17.0.7 with PID 17788 (C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches\target\classes started by dalex in C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches)
+2024-01-29 18:51:37,034 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-29 18:51:38,353 INFO TomcatWebServer [main] Tomcat initialized with port 8086 (http)
+2024-01-29 18:51:38,367 INFO DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8086"]
+2024-01-29 18:51:38,372 INFO DirectJDKLog [main] Starting service [Tomcat]
+2024-01-29 18:51:38,372 INFO DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-29 18:51:38,443 INFO DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-01-29 18:51:38,444 INFO ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1365 ms
+2024-01-29 18:51:39,577 INFO EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-29 18:51:39,638 INFO AbstractConfig [main] AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-01-29 18:51:39,699 INFO AppInfoParser$AppInfo [main] Kafka version: 3.6.1
+2024-01-29 18:51:39,701 INFO AppInfoParser$AppInfo [main] Kafka commitId: 5e3c2b738d253ff5
+2024-01-29 18:51:39,701 INFO AppInfoParser$AppInfo [main] Kafka startTimeMs: 1706565099698
+2024-01-29 18:51:39,716 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:39,718 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:39,825 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:39,826 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:40,045 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:40,045 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:40,261 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:40,262 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:40,701 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:40,701 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:41,682 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:41,682 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:42,883 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:42,883 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:43,756 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:43,757 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:44,955 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:44,955 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:45,828 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:45,828 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:46,704 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:46,704 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:47,908 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:47,908 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:48,782 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:48,783 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:49,766 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:49,767 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:50,865 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:50,866 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:52,067 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:52,068 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:53,166 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:53,166 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:54,376 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:54,378 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:55,581 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:55,581 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:56,568 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:56,568 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:57,551 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:57,552 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:58,533 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:58,533 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:51:59,732 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:51:59,732 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:52:00,828 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:00,828 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:52:01,701 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:01,701 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:52:02,577 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:02,578 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:52:03,657 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:03,657 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:52:04,624 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:04,625 WARN NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-01-29 18:52:05,906 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:05,907 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 0 due to node -1 being disconnected (elapsed time since creation: 399ms, elapsed time since send: 399ms, request timeout: 3600000ms)
+2024-01-29 18:52:06,902 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:06,902 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 1 due to node -1 being disconnected (elapsed time since creation: 4ms, elapsed time since send: 4ms, request timeout: 3600000ms)
+2024-01-29 18:52:07,887 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:07,888 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 2 due to node -1 being disconnected (elapsed time since creation: 1ms, elapsed time since send: 1ms, request timeout: 3600000ms)
+2024-01-29 18:52:08,976 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:08,976 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 3 due to node -1 being disconnected (elapsed time since creation: 2ms, elapsed time since send: 2ms, request timeout: 3600000ms)
+2024-01-29 18:52:09,716 INFO AdminMetadataManager [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+2024-01-29 18:52:09,716 ERROR LogAccessor [main] Could not configure topics
+org.springframework.kafka.KafkaException: Timed out waiting to get existing topics
+	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$11(KafkaAdmin.java:520)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.springframework.kafka.core.KafkaAdmin.checkPartitions(KafkaAdmin.java:499)
+	at org.springframework.kafka.core.KafkaAdmin.addOrModifyTopicsIfNeeded(KafkaAdmin.java:392)
+	at org.springframework.kafka.core.KafkaAdmin.initialize(KafkaAdmin.java:258)
+	at org.springframework.kafka.core.KafkaAdmin.afterSingletonsInstantiated(KafkaAdmin.java:222)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:986)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at br.com.administradorfiaplanches.AdministradorFiaplanchesApplication.main(AdministradorFiaplanchesApplication.java:10)
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:180)
+	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$11(KafkaAdmin.java:502)
+	... 15 common frames omitted
+2024-01-29 18:52:09,829 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:09,829 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 4 due to node -1 being disconnected (elapsed time since creation: 2ms, elapsed time since send: 2ms, request timeout: 3600000ms)
+2024-01-29 18:52:10,999 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:10,999 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 5 due to node -1 being disconnected (elapsed time since creation: 2ms, elapsed time since send: 2ms, request timeout: 3600000ms)
+2024-01-29 18:52:12,225 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:12,225 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 6 due to node -1 being disconnected (elapsed time since creation: 2ms, elapsed time since send: 2ms, request timeout: 3600000ms)
+2024-01-29 18:52:13,107 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:13,108 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 7 due to node -1 being disconnected (elapsed time since creation: 1ms, elapsed time since send: 1ms, request timeout: 3600000ms)
+2024-01-29 18:52:14,213 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:14,214 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 8 due to node -1 being disconnected (elapsed time since creation: 1ms, elapsed time since send: 1ms, request timeout: 3600000ms)
+2024-01-29 18:52:15,203 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:15,204 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 9 due to node -1 being disconnected (elapsed time since creation: 2ms, elapsed time since send: 2ms, request timeout: 3600000ms)
+2024-01-29 18:52:16,089 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:16,089 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 10 due to node -1 being disconnected (elapsed time since creation: 1ms, elapsed time since send: 1ms, request timeout: 3600000ms)
+2024-01-29 18:52:16,977 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:16,977 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 11 due to node -1 being disconnected (elapsed time since creation: 2ms, elapsed time since send: 2ms, request timeout: 3600000ms)
+2024-01-29 18:52:17,964 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-01-29 18:52:17,964 INFO NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 12 due to node -1 being disconnected (elapsed time since creation: 2ms, elapsed time since send: 2ms, request timeout: 3600000ms)
+2024-01-29 18:52:19,523 INFO AppInfoParser [kafka-admin-client-thread | adminclient-1] App info kafka.admin.client for adminclient-1 unregistered
+2024-01-29 18:52:19,530 INFO Metrics [kafka-admin-client-thread | adminclient-1] Metrics scheduler closed
+2024-01-29 18:52:19,530 INFO Metrics [kafka-admin-client-thread | adminclient-1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-01-29 18:52:19,530 INFO Metrics [kafka-admin-client-thread | adminclient-1] Metrics reporters closed
+2024-01-29 18:52:19,548 INFO TomcatWebServer [main] Tomcat started on port 8086 (http) with context path ''
+2024-01-29 18:52:19,574 INFO StartupInfoLogger [main] Started AdministradorFiaplanchesApplication in 43.208 seconds (process running for 43.884)
+2024-01-29 19:43:23,213 INFO StartupInfoLogger [main] Starting AdministradorFiaplanchesApplication using Java 17.0.7 with PID 22296 (C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches\target\classes started by dalex in C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches)
+2024-01-29 19:43:23,216 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-29 19:43:24,669 INFO TomcatWebServer [main] Tomcat initialized with port 8086 (http)
+2024-01-29 19:43:24,681 INFO DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8086"]
+2024-01-29 19:43:24,685 INFO DirectJDKLog [main] Starting service [Tomcat]
+2024-01-29 19:43:24,685 INFO DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-29 19:43:24,756 INFO DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-01-29 19:43:24,756 INFO ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1495 ms
+2024-01-29 19:43:26,091 INFO EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-29 19:43:26,165 INFO AbstractConfig [main] AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-01-29 19:43:26,254 INFO AppInfoParser$AppInfo [main] Kafka version: 3.6.1
+2024-01-29 19:43:26,256 INFO AppInfoParser$AppInfo [main] Kafka commitId: 5e3c2b738d253ff5
+2024-01-29 19:43:26,256 INFO AppInfoParser$AppInfo [main] Kafka startTimeMs: 1706568206253
+2024-01-29 19:43:26,728 INFO AppInfoParser [kafka-admin-client-thread | adminclient-1] App info kafka.admin.client for adminclient-1 unregistered
+2024-01-29 19:43:26,733 INFO Metrics [kafka-admin-client-thread | adminclient-1] Metrics scheduler closed
+2024-01-29 19:43:26,733 INFO Metrics [kafka-admin-client-thread | adminclient-1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-01-29 19:43:26,733 INFO Metrics [kafka-admin-client-thread | adminclient-1] Metrics reporters closed
+2024-01-29 19:43:26,739 INFO DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8086"]
+2024-01-29 19:43:26,751 INFO TomcatWebServer [main] Tomcat started on port 8086 (http) with context path ''
+2024-01-29 19:43:26,766 INFO StartupInfoLogger [main] Started AdministradorFiaplanchesApplication in 4.266 seconds (process running for 4.993)
+2024-01-29 19:45:01,976 INFO DirectJDKLog [http-nio-8086-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-29 19:45:01,977 INFO FrameworkServlet [http-nio-8086-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-01-29 19:45:01,979 INFO FrameworkServlet [http-nio-8086-exec-1] Completed initialization in 2 ms
+2024-01-29 19:45:02,025 INFO RestControllerFilter [http-nio-8086-exec-1] START
+2024-01-29 19:45:02,026 INFO RestControllerFilter [http-nio-8086-exec-1] URL: http://127.0.0.1:8086/v1/admin/find/orders/pending :: request ID [79277750-d58b-404c-930b-db5f87482f78] :: IP solicitante: 127.0.0.1
+2024-01-29 19:45:02,026 INFO RestControllerFilter [http-nio-8086-exec-1] Request: null
+2024-01-29 19:45:02,052 INFO FindOrdersPendingUseCase [http-nio-8086-exec-1] Buscando pedidos aprovados
+2024-01-29 19:45:02,052 INFO OrderRestAdapterOut [http-nio-8086-exec-1] Chamando endpoint de busca de pedidos pendentes
+2024-01-29 19:45:02,952 INFO OrderRestAdapterOut [http-nio-8086-exec-1] Pedidos pendentes: [OrderDto[id=2, cpf=40859526844, products=[2, 3], dateOrder=2024-01-28T23:13:40.961373, orderStatus=PAGAMENTO_APROVADO, approved=true], OrderDto[id=1, cpf=40859526844, products=[2, 3], dateOrder=2024-01-28T23:12:35.548009, orderStatus=PAGAMENTO_APROVADO, approved=true], OrderDto[id=3, cpf=40859526844, products=[2, 3], dateOrder=2024-01-28T23:20:17.968366, orderStatus=PAGAMENTO_APROVADO, approved=true], OrderDto[id=4, cpf=40859526844, products=[2, 3], dateOrder=2024-01-28T23:21:55.402316, orderStatus=PAGAMENTO_APROVADO, approved=true], OrderDto[id=5, cpf=40859526844, products=[1, 2, 3], dateOrder=2024-01-28T23:55:24.172173, orderStatus=PAGAMENTO_APROVADO, approved=true], OrderDto[id=6, cpf=40859526844, products=[1, 2, 3], dateOrder=2024-01-29T22:28:26.182570, orderStatus=PAGAMENTO_APROVADO, approved=true]]
+2024-01-29 19:45:03,010 INFO RestControllerFilter [http-nio-8086-exec-1] Response: [{"id":2,"cpf":"40859526844","products":[2,3],"dateOrder":"2024-01-28T23:13:40.961373","orderStatus":"PAGAMENTO_APROVADO","approved":true},{"id":1,"cpf":"40859526844","products":[2,3],"dateOrder":"2024-01-28T23:12:35.548009","orderStatus":"PAGAMENTO_APROVADO","approved":true},{"id":3,"cpf":"40859526844","products":[2,3],"dateOrder":"2024-01-28T23:20:17.968366","orderStatus":"PAGAMENTO_APROVADO","approved":true},{"id":4,"cpf":"40859526844","products":[2,3],"dateOrder":"2024-01-28T23:21:55.402316","orderStatus":"PAGAMENTO_APROVADO","approved":true},{"id":5,"cpf":"40859526844","products":[1,2,3],"dateOrder":"2024-01-28T23:55:24.172173","orderStatus":"PAGAMENTO_APROVADO","approved":true},{"id":6,"cpf":"40859526844","products":[1,2,3],"dateOrder":"2024-01-29T22:28:26.18257","orderStatus":"PAGAMENTO_APROVADO","approved":true}]
+2024-01-29 19:45:03,010 INFO RestControllerFilter [http-nio-8086-exec-1] Status Code: 200
+2024-01-29 19:45:03,010 INFO RestControllerFilter [http-nio-8086-exec-1] END
+2024-01-29 19:47:00,077 INFO RestControllerFilter [http-nio-8086-exec-4] START
+2024-01-29 19:47:00,078 INFO RestControllerFilter [http-nio-8086-exec-4] URL: http://127.0.0.1:8086/v1/admin/update/orders/status :: request ID [b75b5003-1a20-433e-a069-78e9ba4d6850] :: IP solicitante: 127.0.0.1
+2024-01-29 19:47:00,078 INFO RestControllerFilter [http-nio-8086-exec-4] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 19:47:00,092 INFO RestControllerFilter [http-nio-8086-exec-4] Response: 
+2024-01-29 19:47:00,093 INFO RestControllerFilter [http-nio-8086-exec-4] Status Code: 404
+2024-01-29 19:47:00,093 INFO RestControllerFilter [http-nio-8086-exec-4] END
+2024-01-29 19:47:20,898 INFO RestControllerFilter [http-nio-8086-exec-5] START
+2024-01-29 19:47:20,898 INFO RestControllerFilter [http-nio-8086-exec-5] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [176f06ce-a77d-4995-a7ba-5020b31165a2] :: IP solicitante: 127.0.0.1
+2024-01-29 19:47:20,898 INFO RestControllerFilter [http-nio-8086-exec-5] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 19:47:20,943 INFO AbstractConfig [http-nio-8086-exec-5] ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2024-01-29 19:47:20,963 INFO KafkaProducer [http-nio-8086-exec-5] [Producer clientId=producer-1] Instantiated an idempotent producer.
+2024-01-29 19:47:20,984 INFO AppInfoParser$AppInfo [http-nio-8086-exec-5] Kafka version: 3.6.1
+2024-01-29 19:47:20,984 INFO AppInfoParser$AppInfo [http-nio-8086-exec-5] Kafka commitId: 5e3c2b738d253ff5
+2024-01-29 19:47:20,985 INFO AppInfoParser$AppInfo [http-nio-8086-exec-5] Kafka startTimeMs: 1706568440984
+2024-01-29 19:47:20,999 INFO Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Cluster ID: HqEiOdBoS8aIFDlKQj_6KA
+2024-01-29 19:47:21,000 INFO TransactionManager [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] ProducerId set to 26002 with epoch 0
+2024-01-29 19:47:21,032 INFO RestControllerFilter [http-nio-8086-exec-5] Response: Solicitação realizada com sucesso!
+2024-01-29 19:47:21,032 INFO RestControllerFilter [http-nio-8086-exec-5] Status Code: 200
+2024-01-29 19:47:21,032 INFO RestControllerFilter [http-nio-8086-exec-5] END
+2024-01-29 19:49:16,411 INFO RestControllerFilter [http-nio-8086-exec-7] START
+2024-01-29 19:49:16,411 INFO RestControllerFilter [http-nio-8086-exec-7] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [6429cde0-4c5a-4ec8-b057-7822aacd7845] :: IP solicitante: 127.0.0.1
+2024-01-29 19:49:16,412 INFO RestControllerFilter [http-nio-8086-exec-7] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 19:49:16,414 INFO RestControllerFilter [http-nio-8086-exec-7] Response: Solicitação realizada com sucesso!
+2024-01-29 19:49:16,415 INFO RestControllerFilter [http-nio-8086-exec-7] Status Code: 200
+2024-01-29 19:49:16,415 INFO RestControllerFilter [http-nio-8086-exec-7] END
+2024-01-29 19:51:06,524 INFO RestControllerFilter [http-nio-8086-exec-9] START
+2024-01-29 19:51:06,524 INFO RestControllerFilter [http-nio-8086-exec-9] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [bbf66fde-396d-4f35-8277-cdacd23f84f6] :: IP solicitante: 127.0.0.1
+2024-01-29 19:51:06,524 INFO RestControllerFilter [http-nio-8086-exec-9] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 19:51:06,526 INFO RestControllerFilter [http-nio-8086-exec-9] Response: Solicitação realizada com sucesso!
+2024-01-29 19:51:06,526 INFO RestControllerFilter [http-nio-8086-exec-9] Status Code: 200
+2024-01-29 19:51:06,527 INFO RestControllerFilter [http-nio-8086-exec-9] END
+2024-01-29 19:51:55,383 INFO RestControllerFilter [http-nio-8086-exec-10] START
+2024-01-29 19:51:55,384 INFO RestControllerFilter [http-nio-8086-exec-10] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [31acae96-8214-4151-b2fb-779d6eb50ce8] :: IP solicitante: 127.0.0.1
+2024-01-29 19:51:55,384 INFO RestControllerFilter [http-nio-8086-exec-10] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 19:51:55,387 INFO RestControllerFilter [http-nio-8086-exec-10] Response: Solicitação realizada com sucesso!
+2024-01-29 19:51:55,387 INFO RestControllerFilter [http-nio-8086-exec-10] Status Code: 200
+2024-01-29 19:51:55,387 INFO RestControllerFilter [http-nio-8086-exec-10] END
+2024-01-29 19:56:21,034 INFO NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-01-29 20:04:25,766 INFO RestControllerFilter [http-nio-8086-exec-1] START
+2024-01-29 20:04:25,767 INFO RestControllerFilter [http-nio-8086-exec-1] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [1cecbf9e-36e0-432c-ba6a-0a76a6a6e4c0] :: IP solicitante: 127.0.0.1
+2024-01-29 20:04:25,767 INFO RestControllerFilter [http-nio-8086-exec-1] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 20:04:25,773 INFO RestControllerFilter [http-nio-8086-exec-1] Response: Solicitação realizada com sucesso!
+2024-01-29 20:04:25,773 INFO RestControllerFilter [http-nio-8086-exec-1] Status Code: 200
+2024-01-29 20:04:25,773 INFO RestControllerFilter [http-nio-8086-exec-1] END
+2024-01-29 20:05:44,950 INFO RestControllerFilter [http-nio-8086-exec-4] START
+2024-01-29 20:05:44,951 INFO RestControllerFilter [http-nio-8086-exec-4] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [c8d0bb5e-7206-4ec4-b286-7cb52a662c60] :: IP solicitante: 127.0.0.1
+2024-01-29 20:05:44,952 INFO RestControllerFilter [http-nio-8086-exec-4] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 20:05:44,956 INFO RestControllerFilter [http-nio-8086-exec-4] Response: Solicitação realizada com sucesso!
+2024-01-29 20:05:44,956 INFO RestControllerFilter [http-nio-8086-exec-4] Status Code: 200
+2024-01-29 20:05:44,957 INFO RestControllerFilter [http-nio-8086-exec-4] END
+2024-01-29 20:07:11,227 INFO RestControllerFilter [http-nio-8086-exec-3] START
+2024-01-29 20:07:11,229 INFO RestControllerFilter [http-nio-8086-exec-3] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [c273bb7f-381b-43b3-bbef-862dd1b2181a] :: IP solicitante: 127.0.0.1
+2024-01-29 20:07:11,229 INFO RestControllerFilter [http-nio-8086-exec-3] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 20:07:11,232 INFO RestControllerFilter [http-nio-8086-exec-3] Response: Solicitação realizada com sucesso!
+2024-01-29 20:07:11,232 INFO RestControllerFilter [http-nio-8086-exec-3] Status Code: 200
+2024-01-29 20:07:11,233 INFO RestControllerFilter [http-nio-8086-exec-3] END
+2024-01-29 20:08:10,885 INFO RestControllerFilter [http-nio-8086-exec-7] START
+2024-01-29 20:08:10,885 INFO RestControllerFilter [http-nio-8086-exec-7] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [151588e7-c380-46b8-a86a-b2ab75de0dac] :: IP solicitante: 127.0.0.1
+2024-01-29 20:08:10,885 INFO RestControllerFilter [http-nio-8086-exec-7] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 20:08:10,887 INFO RestControllerFilter [http-nio-8086-exec-7] Response: Solicitação realizada com sucesso!
+2024-01-29 20:08:10,887 INFO RestControllerFilter [http-nio-8086-exec-7] Status Code: 200
+2024-01-29 20:08:10,887 INFO RestControllerFilter [http-nio-8086-exec-7] END
+2024-01-29 20:09:57,137 INFO KafkaProducer [SpringApplicationShutdownHook] [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-01-29 20:09:57,144 INFO Metrics [SpringApplicationShutdownHook] Metrics scheduler closed
+2024-01-29 20:09:57,144 INFO Metrics [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-01-29 20:09:57,145 INFO Metrics [SpringApplicationShutdownHook] Metrics reporters closed
+2024-01-29 20:09:57,145 INFO AppInfoParser [SpringApplicationShutdownHook] App info kafka.producer for producer-1 unregistered
+2024-01-29 20:10:01,558 INFO StartupInfoLogger [main] Starting AdministradorFiaplanchesApplication using Java 17.0.7 with PID 9244 (C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches\target\classes started by dalex in C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches)
+2024-01-29 20:10:01,561 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-29 20:10:02,897 INFO TomcatWebServer [main] Tomcat initialized with port 8086 (http)
+2024-01-29 20:10:02,908 INFO DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8086"]
+2024-01-29 20:10:02,911 INFO DirectJDKLog [main] Starting service [Tomcat]
+2024-01-29 20:10:02,911 INFO DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-29 20:10:02,989 INFO DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-01-29 20:10:02,989 INFO ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1385 ms
+2024-01-29 20:10:04,159 INFO EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-29 20:10:04,223 INFO AbstractConfig [main] AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-01-29 20:10:04,284 INFO AppInfoParser$AppInfo [main] Kafka version: 3.6.1
+2024-01-29 20:10:04,286 INFO AppInfoParser$AppInfo [main] Kafka commitId: 5e3c2b738d253ff5
+2024-01-29 20:10:04,286 INFO AppInfoParser$AppInfo [main] Kafka startTimeMs: 1706569804283
+2024-01-29 20:10:04,636 INFO AppInfoParser [kafka-admin-client-thread | adminclient-1] App info kafka.admin.client for adminclient-1 unregistered
+2024-01-29 20:10:04,641 INFO Metrics [kafka-admin-client-thread | adminclient-1] Metrics scheduler closed
+2024-01-29 20:10:04,641 INFO Metrics [kafka-admin-client-thread | adminclient-1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-01-29 20:10:04,642 INFO Metrics [kafka-admin-client-thread | adminclient-1] Metrics reporters closed
+2024-01-29 20:10:04,647 INFO DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8086"]
+2024-01-29 20:10:04,657 INFO TomcatWebServer [main] Tomcat started on port 8086 (http) with context path ''
+2024-01-29 20:10:04,673 INFO StartupInfoLogger [main] Started AdministradorFiaplanchesApplication in 3.747 seconds (process running for 4.384)
+2024-01-29 20:10:21,910 INFO DirectJDKLog [http-nio-8086-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-29 20:10:21,911 INFO FrameworkServlet [http-nio-8086-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-01-29 20:10:21,912 INFO FrameworkServlet [http-nio-8086-exec-1] Completed initialization in 1 ms
+2024-01-29 20:10:21,939 INFO RestControllerFilter [http-nio-8086-exec-1] START
+2024-01-29 20:10:21,940 INFO RestControllerFilter [http-nio-8086-exec-1] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [2c2c09d7-0eb3-48d3-9066-69afb2335c55] :: IP solicitante: 127.0.0.1
+2024-01-29 20:10:21,940 INFO RestControllerFilter [http-nio-8086-exec-1] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 20:10:22,025 INFO AbstractConfig [http-nio-8086-exec-1] ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2024-01-29 20:10:22,042 INFO KafkaProducer [http-nio-8086-exec-1] [Producer clientId=producer-1] Instantiated an idempotent producer.
+2024-01-29 20:10:22,063 INFO AppInfoParser$AppInfo [http-nio-8086-exec-1] Kafka version: 3.6.1
+2024-01-29 20:10:22,063 INFO AppInfoParser$AppInfo [http-nio-8086-exec-1] Kafka commitId: 5e3c2b738d253ff5
+2024-01-29 20:10:22,064 INFO AppInfoParser$AppInfo [http-nio-8086-exec-1] Kafka startTimeMs: 1706569822063
+2024-01-29 20:10:22,076 INFO Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Cluster ID: HqEiOdBoS8aIFDlKQj_6KA
+2024-01-29 20:10:22,077 INFO TransactionManager [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] ProducerId set to 26004 with epoch 0
+2024-01-29 20:10:22,119 INFO RestControllerFilter [http-nio-8086-exec-1] Response: Solicitação realizada com sucesso!
+2024-01-29 20:10:22,120 INFO RestControllerFilter [http-nio-8086-exec-1] Status Code: 200
+2024-01-29 20:10:22,120 INFO RestControllerFilter [http-nio-8086-exec-1] END
+2024-01-29 20:14:02,948 INFO RestControllerFilter [http-nio-8086-exec-3] START
+2024-01-29 20:14:02,949 INFO RestControllerFilter [http-nio-8086-exec-3] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [d64db0b2-8574-4a98-bb7c-db9dd97253fa] :: IP solicitante: 127.0.0.1
+2024-01-29 20:14:02,949 INFO RestControllerFilter [http-nio-8086-exec-3] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 20:14:02,952 INFO RestControllerFilter [http-nio-8086-exec-3] Response: Solicitação realizada com sucesso!
+2024-01-29 20:14:02,953 INFO RestControllerFilter [http-nio-8086-exec-3] Status Code: 200
+2024-01-29 20:14:02,953 INFO RestControllerFilter [http-nio-8086-exec-3] END
+2024-01-29 20:16:11,510 INFO RestControllerFilter [http-nio-8086-exec-6] START
+2024-01-29 20:16:11,511 INFO RestControllerFilter [http-nio-8086-exec-6] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [fa4e1e62-4d23-45e7-8efe-064e896af7b2] :: IP solicitante: 127.0.0.1
+2024-01-29 20:16:11,511 INFO RestControllerFilter [http-nio-8086-exec-6] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 20:16:11,513 INFO RestControllerFilter [http-nio-8086-exec-6] Response: Solicitação realizada com sucesso!
+2024-01-29 20:16:11,513 INFO RestControllerFilter [http-nio-8086-exec-6] Status Code: 200
+2024-01-29 20:16:11,514 INFO RestControllerFilter [http-nio-8086-exec-6] END
+2024-01-29 20:19:41,608 INFO NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-01-29 20:22:50,207 INFO RestControllerFilter [http-nio-8086-exec-7] START
+2024-01-29 20:22:50,207 INFO RestControllerFilter [http-nio-8086-exec-7] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [803011cb-1572-4530-9b3b-bdbbb6311247] :: IP solicitante: 127.0.0.1
+2024-01-29 20:22:50,207 INFO RestControllerFilter [http-nio-8086-exec-7] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 20:22:50,210 INFO RestControllerFilter [http-nio-8086-exec-7] Response: Solicitação realizada com sucesso!
+2024-01-29 20:22:50,211 INFO RestControllerFilter [http-nio-8086-exec-7] Status Code: 200
+2024-01-29 20:22:50,211 INFO RestControllerFilter [http-nio-8086-exec-7] END
+2024-01-29 20:23:43,825 INFO KafkaProducer [SpringApplicationShutdownHook] [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-01-29 20:23:43,829 INFO Metrics [SpringApplicationShutdownHook] Metrics scheduler closed
+2024-01-29 20:23:43,829 INFO Metrics [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-01-29 20:23:43,830 INFO Metrics [SpringApplicationShutdownHook] Metrics reporters closed
+2024-01-29 20:23:43,830 INFO AppInfoParser [SpringApplicationShutdownHook] App info kafka.producer for producer-1 unregistered
+2024-01-29 20:23:47,614 INFO StartupInfoLogger [main] Starting AdministradorFiaplanchesApplication using Java 17.0.7 with PID 18796 (C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches\target\classes started by dalex in C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches)
+2024-01-29 20:23:47,617 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-29 20:23:48,869 INFO TomcatWebServer [main] Tomcat initialized with port 8086 (http)
+2024-01-29 20:23:48,879 INFO DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8086"]
+2024-01-29 20:23:48,881 INFO DirectJDKLog [main] Starting service [Tomcat]
+2024-01-29 20:23:48,881 INFO DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-29 20:23:48,944 INFO DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-01-29 20:23:48,945 INFO ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1287 ms
+2024-01-29 20:23:50,069 INFO EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-29 20:23:50,128 INFO AbstractConfig [main] AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-01-29 20:23:50,190 INFO AppInfoParser$AppInfo [main] Kafka version: 3.6.1
+2024-01-29 20:23:50,191 INFO AppInfoParser$AppInfo [main] Kafka commitId: 5e3c2b738d253ff5
+2024-01-29 20:23:50,192 INFO AppInfoParser$AppInfo [main] Kafka startTimeMs: 1706570630189
+2024-01-29 20:23:50,532 INFO AppInfoParser [kafka-admin-client-thread | adminclient-1] App info kafka.admin.client for adminclient-1 unregistered
+2024-01-29 20:23:50,538 INFO Metrics [kafka-admin-client-thread | adminclient-1] Metrics scheduler closed
+2024-01-29 20:23:50,538 INFO Metrics [kafka-admin-client-thread | adminclient-1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-01-29 20:23:50,538 INFO Metrics [kafka-admin-client-thread | adminclient-1] Metrics reporters closed
+2024-01-29 20:23:50,544 INFO DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8086"]
+2024-01-29 20:23:50,555 INFO TomcatWebServer [main] Tomcat started on port 8086 (http) with context path ''
+2024-01-29 20:23:50,572 INFO StartupInfoLogger [main] Started AdministradorFiaplanchesApplication in 3.544 seconds (process running for 4.152)
+2024-01-29 20:26:13,732 INFO DirectJDKLog [http-nio-8086-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-29 20:26:13,733 INFO FrameworkServlet [http-nio-8086-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-01-29 20:26:13,735 INFO FrameworkServlet [http-nio-8086-exec-1] Completed initialization in 2 ms
+2024-01-29 20:26:13,759 INFO RestControllerFilter [http-nio-8086-exec-1] START
+2024-01-29 20:26:13,760 INFO RestControllerFilter [http-nio-8086-exec-1] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [2d5cffc3-ad82-4d5d-8604-6ed8053f08c3] :: IP solicitante: 127.0.0.1
+2024-01-29 20:26:13,760 INFO RestControllerFilter [http-nio-8086-exec-1] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 20:26:13,836 INFO AbstractConfig [http-nio-8086-exec-1] ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2024-01-29 20:26:13,852 INFO KafkaProducer [http-nio-8086-exec-1] [Producer clientId=producer-1] Instantiated an idempotent producer.
+2024-01-29 20:26:13,871 INFO AppInfoParser$AppInfo [http-nio-8086-exec-1] Kafka version: 3.6.1
+2024-01-29 20:26:13,871 INFO AppInfoParser$AppInfo [http-nio-8086-exec-1] Kafka commitId: 5e3c2b738d253ff5
+2024-01-29 20:26:13,871 INFO AppInfoParser$AppInfo [http-nio-8086-exec-1] Kafka startTimeMs: 1706570773871
+2024-01-29 20:26:13,884 INFO Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Cluster ID: HqEiOdBoS8aIFDlKQj_6KA
+2024-01-29 20:26:13,884 INFO TransactionManager [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] ProducerId set to 26005 with epoch 0
+2024-01-29 20:26:13,923 INFO RestControllerFilter [http-nio-8086-exec-1] Response: Solicitação realizada com sucesso!
+2024-01-29 20:26:13,923 INFO RestControllerFilter [http-nio-8086-exec-1] Status Code: 200
+2024-01-29 20:26:13,923 INFO RestControllerFilter [http-nio-8086-exec-1] END
+2024-01-29 20:27:50,047 INFO RestControllerFilter [http-nio-8086-exec-4] START
+2024-01-29 20:27:50,047 INFO RestControllerFilter [http-nio-8086-exec-4] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [77ab2c4c-b37b-4893-aec5-2ea34f3dcac4] :: IP solicitante: 127.0.0.1
+2024-01-29 20:27:50,047 INFO RestControllerFilter [http-nio-8086-exec-4] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 20:27:50,051 INFO RestControllerFilter [http-nio-8086-exec-4] Response: Solicitação realizada com sucesso!
+2024-01-29 20:27:50,052 INFO RestControllerFilter [http-nio-8086-exec-4] Status Code: 200
+2024-01-29 20:27:50,052 INFO RestControllerFilter [http-nio-8086-exec-4] END
+2024-01-29 20:29:40,645 INFO RestControllerFilter [http-nio-8086-exec-3] START
+2024-01-29 20:29:40,645 INFO RestControllerFilter [http-nio-8086-exec-3] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [d947c3ac-dd56-40df-b8f4-25f94761637c] :: IP solicitante: 127.0.0.1
+2024-01-29 20:29:40,646 INFO RestControllerFilter [http-nio-8086-exec-3] Request: {"orderId":1,"status":"RECEBIDO"}
+2024-01-29 20:29:40,648 INFO RestControllerFilter [http-nio-8086-exec-3] Response: Solicitação realizada com sucesso!
+2024-01-29 20:29:40,648 INFO RestControllerFilter [http-nio-8086-exec-3] Status Code: 200
+2024-01-29 20:29:40,648 INFO RestControllerFilter [http-nio-8086-exec-3] END
+2024-01-29 20:29:53,032 INFO RestControllerFilter [http-nio-8086-exec-6] START
+2024-01-29 20:29:53,032 INFO RestControllerFilter [http-nio-8086-exec-6] URL: http://127.0.0.1:8086/v1/admin/find/orders/pending :: request ID [d37c8d08-0494-4af9-b75b-fc89bce76087] :: IP solicitante: 127.0.0.1
+2024-01-29 20:29:53,032 INFO RestControllerFilter [http-nio-8086-exec-6] Request: null
+2024-01-29 20:29:53,040 INFO RestControllerFilter [http-nio-8086-exec-6] Response: 
+2024-01-29 20:29:53,041 INFO RestControllerFilter [http-nio-8086-exec-6] Status Code: 404
+2024-01-29 20:29:53,041 INFO RestControllerFilter [http-nio-8086-exec-6] END
+2024-01-29 20:30:40,980 INFO RestControllerFilter [http-nio-8086-exec-7] START
+2024-01-29 20:30:40,981 INFO RestControllerFilter [http-nio-8086-exec-7] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [9c85bc9a-53d4-474a-9fe8-f5495d48a9b9] :: IP solicitante: 127.0.0.1
+2024-01-29 20:30:40,981 INFO RestControllerFilter [http-nio-8086-exec-7] Request: {"orderId":1,"status":"EM_PREPARO"}
+2024-01-29 20:30:40,983 INFO RestControllerFilter [http-nio-8086-exec-7] Response: Solicitação realizada com sucesso!
+2024-01-29 20:30:40,985 INFO RestControllerFilter [http-nio-8086-exec-7] Status Code: 200
+2024-01-29 20:30:40,985 INFO RestControllerFilter [http-nio-8086-exec-7] END
+2024-01-29 20:35:03,401 INFO RestControllerFilter [http-nio-8086-exec-9] START
+2024-01-29 20:35:03,403 INFO RestControllerFilter [http-nio-8086-exec-9] URL: http://127.0.0.1:8086/v1/admin/update/order/status :: request ID [f8013293-011c-4a7f-886d-2b7c68f9d1d3] :: IP solicitante: 127.0.0.1
+2024-01-29 20:35:03,403 INFO RestControllerFilter [http-nio-8086-exec-9] Request: {"orderId":2,"status":"RECEBIDO"}
+2024-01-29 20:35:03,406 INFO RestControllerFilter [http-nio-8086-exec-9] Response: Solicitação realizada com sucesso!
+2024-01-29 20:35:03,406 INFO RestControllerFilter [http-nio-8086-exec-9] Status Code: 200
+2024-01-29 20:35:03,406 INFO RestControllerFilter [http-nio-8086-exec-9] END
+2024-01-29 20:35:33,463 INFO NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-01-29 20:36:18,232 INFO KafkaProducer [SpringApplicationShutdownHook] [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-01-29 20:36:18,240 INFO Metrics [SpringApplicationShutdownHook] Metrics scheduler closed
+2024-01-29 20:36:18,240 INFO Metrics [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-01-29 20:36:18,240 INFO Metrics [SpringApplicationShutdownHook] Metrics reporters closed
+2024-01-29 20:36:18,241 INFO AppInfoParser [SpringApplicationShutdownHook] App info kafka.producer for producer-1 unregistered
+2024-01-29 21:26:28,886 INFO StartupInfoLogger [main] Starting AdministradorFiaplanchesApplicationTests using Java 17.0.7 with PID 14172 (started by dalex in C:\Users\dalex\Documents\Linguagem Java\Workspace\Fiap\Microservices Fiap\administrador-fiaplanches)
+2024-01-29 21:26:28,890 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-29 21:26:32,144 INFO EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-29 21:26:32,231 INFO AbstractConfig [main] AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-01-29 21:26:32,397 INFO AppInfoParser$AppInfo [main] Kafka version: 3.6.1
+2024-01-29 21:26:32,399 INFO AppInfoParser$AppInfo [main] Kafka commitId: 5e3c2b738d253ff5
+2024-01-29 21:26:32,400 INFO AppInfoParser$AppInfo [main] Kafka startTimeMs: 1706574392395
+2024-01-29 21:26:32,968 INFO AppInfoParser [kafka-admin-client-thread | adminclient-1] App info kafka.admin.client for adminclient-1 unregistered
+2024-01-29 21:26:32,974 INFO Metrics [kafka-admin-client-thread | adminclient-1] Metrics scheduler closed
+2024-01-29 21:26:32,974 INFO Metrics [kafka-admin-client-thread | adminclient-1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-01-29 21:26:32,975 INFO Metrics [kafka-admin-client-thread | adminclient-1] Metrics reporters closed
+2024-01-29 21:26:32,999 INFO StartupInfoLogger [main] Started AdministradorFiaplanchesApplicationTests in 4.686 seconds (process running for 6.057)

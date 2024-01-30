@@ -1,0 +1,30 @@
+server:
+  port: 8086
+
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: ${SPRING_KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+#      properties:
+#        spring.json.type.mapping: PaymentOrder:br.com.fiaplanchesorder.application.dtos.PaymentOrderDto
+
+kafka:
+  topic:
+    producer:
+      name: ${KAFKA_TOPIC_PRODUCER_ORDER:fiap-lanches-order}
+
+management:
+  endpoints:
+    enabled-by-default: false
+  endpoint:
+    health:
+      show-details: always
+      enabled: true
+    metrics:
+      enabled: true
+
+rest:
+  order:
+    endpoint: ${REST_ORDER_ENDPOINT:http://localhost:8081/v1/order}
