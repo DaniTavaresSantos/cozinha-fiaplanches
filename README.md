@@ -24,11 +24,11 @@ Isso iniciará os containers necessários para executar a aplicação.
 
 ## Importe também o Environment também localizado na pasta:.
 
-## Utilização:
+## Ordem do caminho feliz a partir dos endpoints do postman:
 
-Este microsserviço não possui uma API REST tradicional. Em vez disso, ele participa de uma SAGA baseada em eventos como principal forma de comunicação entre diferentes partes do sistema.
-
-Na SAGA, o processo é iniciado por um evento gerado pelo pedido do cliente. Esse evento é então enviado para um barramento de mensagens apache Kafka, onde outros microsserviços podem consumi-lo e realizar as ações necessárias.
+## Utilizar os seguintes requests, onde o body informado ja é funcional.
+1. Admin/findOrderPending
+2. Admin/updateOrderStatus
 
 ## Links dos Repositórios:
 https://github.com/DaniTavaresSantos/product-fiaplanches
